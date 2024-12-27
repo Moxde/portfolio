@@ -1,0 +1,20 @@
+
+
+
+.text {
+    color:#ece9e5 ;
+    letter-spacing:10px ;
+    padding: 10px;
+    
+}
+
+.cont {
+    background-color: #cc7676;
+    padding: 20px;
+    border: 1px solid #ddd;
+    flex-direction: row;
+    display: flex;
+    width: 100%;
+    height: 80px;
+    
+}
