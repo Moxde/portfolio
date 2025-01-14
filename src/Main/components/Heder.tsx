@@ -10,8 +10,8 @@ function Header() {
 
     return (
         <div className={styles.cont}>
-            <a href="https://www.google.com" target="_blank" className={`${styles.text} ${styles.blue}   ${showLinks ? styles.visible : styles.hidden}`}>Home</a>
-            <a href="https://www.google.com" target="_blank" className={`${styles.text} ${styles.red} ${showLinks ? styles.visible : styles.hidden}`}>Skills</a>
+            <a href="#Main"  className={`${styles.text} ${styles.blue}   ${showLinks ? styles.visible : styles.hidden}`}>Home</a>
+            <a href="#Skills" className={`${styles.text} ${styles.red} ${showLinks ? styles.visible : styles.hidden}`}>Skills</a>
             <div className={styles.logoContainer} onClick={handleLogoClick}>
                 <img src="src/Main/assets/chrome-dev-tools-1-removebg-preview.png" alt="" className={styles.logo} />
             </div>
